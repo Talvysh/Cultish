@@ -1,0 +1,5 @@
+room1:
+  links:
+    - room2
+    - room3
+    - room4

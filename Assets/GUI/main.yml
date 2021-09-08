@@ -1,0 +1,17 @@
+dialogueBox:
+  type: container
+  rect:
+    x: 0
+    y: 0
+    w: 250
+    h: 100
+  events:
+    onClick: "dialogueBox_was_clicked"
+    resized: "dialogueBox_was_resized"
+    onHover: "dialogueBox_was_hovered"
+
+button:
+  type: button
+  rect:
+  onClick:
+    signal: "button_was_clicked"

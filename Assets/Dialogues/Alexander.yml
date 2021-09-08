@@ -1,0 +1,19 @@
+active: true
+branches:
+  - id: dialogue-1
+    content:
+      this is some text
+      that can be written pretty well
+      and long
+    links:
+      - content: Go to dialogue 2.
+        dialogue: dialogue-2
+      - content: Go to dialogue 3.
+        dialogue: dialogue-3
+
+  - id: dialogue-2
+    content:
+      content of dialog-2
+    links:
+      - content: Go to dialogue 1.
+        dialogue: dialog-1
